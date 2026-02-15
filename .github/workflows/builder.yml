@@ -47,9 +47,9 @@ jobs:
         cd lpbinary/binary
         wget ${{ github.event.inputs.GSI }}
         mkdir sys
-        mv *.xz sys
+        mv *.gz sys
         cd sys
-        unxz *.xz
+        gunzip *.gz
         mv *.img ../system.img
         cd ..
     - name: Preparing Files
