@@ -56,8 +56,8 @@ jobs:
       run: |
         cd lpbinary/binary
         wget ${{ github.event.inputs.VENDOR }}
-        wget https://sourceforge.net/projects/a03-files/files/product.img
-        wget https://sourceforge.net/projects/a03-files/files/system_ext.img
+        wget https://download1530.mediafire.com/1w451hy5gijgsEI4yKqg09X4-KjrVYPQIhxxhBI_Brz3A84ZqmAXU39TRNMiIFgWWGjIvISUwo_1UzJiJZ4CwSJ2uKT9AV6F4P-I60164TVz4sgY3Icw_YWzxrJk8T6lbZCjmUXx2xGkFiU_FuEno0jcNsVEJEKeU0TCi6HAIWg/l1w72r8qj7ex5re/product.img
+        wget https://download1580.mediafire.com/i2ve5tr8k0og1Jx8uYoSWdMxUDkuFpywRqeDp3X3QjJbeSqa0tYNjVX1A62ALJ-STntEaCxvc4OtziybBqWwDPZpGM-GYdhBDYn8CVnocYWsjGzrW9LY3rWrKda1ZMiujhHwVi8dw-UwCAVkorsRWNRNlxmZZLqTyz5cjLUV9ck/kbt9ndvj1vyae47/system_ext.img
     - name: Packing
       run: |
         cd lpbinary/binary
